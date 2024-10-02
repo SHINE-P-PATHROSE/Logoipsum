@@ -1,0 +1,45 @@
+        /* Custom styles for the navbar */
+        body {
+            display: flex; /* Use flexbox to layout the sidebar */
+            font-family: 'Arial', sans-serif; /* Change font family */
+            background-color: #f8f9fa; /* Light background color for the whole page */
+        }
+        .sidebar {
+            min-width: 250px; /* Set a minimum width for the sidebar */
+            background-color: #343a40; /* Dark background for the sidebar */
+            color: white; /* White text color */
+            height: 100vh; /* Full height */
+            padding: 20px; /* Add some padding */
+            box-shadow: 5px 0 10px rgba(0, 0, 0, 0.2); /* Shadow for sidebar */
+        }
+        .navbar-brand {
+            font-size: 1.5rem; /* Increase brand font size */
+            margin-bottom: 20px; /* Space below the brand */
+        }
+        .nav-link {
+            color: #ffffff; /* Set link color to white */
+            margin: 10px 0; /* Space between links */
+            font-size: 1.1rem; /* Increase link font size */
+            transition: color 0.3s; /* Smooth color transition on hover */
+            padding: 10px; /* Add padding to the links */
+            border-radius: 4px; /* Rounded corners for links */
+        }
+        .nav-link:hover {
+            color: #007bff; /* Change link color on hover */
+            background-color: rgba(255, 255, 255, 0.1); /* Light background on hover */
+        }
+        .content {
+            flex-grow: 1; /* Allow content to take remaining space */
+            padding: 20px; /* Add padding to the content area */
+        }
+        .welcome-message {
+            margin-bottom: 20px; /* Space below the welcome message */
+            font-size: 1.1rem; /* Font size for the welcome message */
+        }
+        .top-box {
+            background-color: #ffffff; /* White background for the top box */
+            border-radius: 8px; /* Rounded corners */
+            padding: 20px; /* Padding inside the box */
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Shadow for top box */
+            margin-bottom: 20px; /* Space below the box */
+        }

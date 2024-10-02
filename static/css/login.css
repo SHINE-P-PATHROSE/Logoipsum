@@ -1,0 +1,569 @@
+        body {
+            background: url('https://source.unsplash.com/1920x1080/?abstract,technology') no-repeat center center fixed; /* Background image */
+            background-size: cover; /* Cover the entire background */
+            color: #ffffff; /* White text color */
+        }
+        .container {
+            max-width: 400px; /* Limit the width of the container */
+            margin: 100px auto; /* Center the container */
+            padding: 30px; /* More padding for a spacious look */
+            border-radius: 8px; /* Rounded corners */
+            background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white background */
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* More pronounced shadow */
+        }
+        h1 {
+            font-size: 28px; /* Larger font size for the heading */
+            color: #343a40; /* Dark text color */
+            text-align: center; /* Center align heading */
+            margin-bottom: 30px; /* Space below heading */
+        }
+        .btn-success {
+            width: 100%; /* Full-width button */
+            font-weight: bold; /* Bold text */
+        }
+        .alert {
+            margin-bottom: 20px; /* Space below alert */
+        }
+        .footer {
+            text-align: center; /* Center align footer text */
+            margin-top: 20px; /* Space above footer */
+            color: #343a40; /* Dark text color */
+        }
+        a {
+            color: #007bff; /* Link color */
+        }
+        a:hover {
+            text-decoration: underline; /* Underline links on hover */
+        }
+        /* Aligning image and form side by side */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Styling for the login form */
+.login-form {
+    padding: 30px;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+
+/* Button styles */
+.btn-block {
+    width: 100%;
+}
+
+/* Customizing the footer text */
+.footer {
+    font-size: 14px;
+    color: #555;
+}
+.footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+
+/* Basic reset for body */
+body {
+    background-color: #f7f9fc; /* Light background for contrast */
+    font-family: 'Arial', sans-serif; /* Modern font */
+}
+
+/* Aligning the container and centering items */
+.container {
+    height: 100vh; /* Full viewport height */
+}
+
+/* Styling for the login form */
+.login-form {
+    padding: 40px; /* Increased padding for better spacing */
+    border: 1px solid #e0e0e0; /* Light border for separation */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    background-color: #ffffff; /* White background for the form */
+    border-radius: 10px; /* Rounded corners */
+    transition: transform 0.2s; /* Smooth transition on hover */
+}
+
+/* Form hover effect */
+.login-form:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+}
+
+/* Styling for the heading */
+.login-form h1 {
+    color: #343a40; /* Dark text for better readability */
+}
+
+/* Button styles */
+.btn-success {
+    background-color: #28a745; /* Green background */
+    border-color: #28a745; /* Matching border */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
+}
+
+.btn-success:hover {
+    background-color: #218838; /* Darker green on hover */
+    border-color: #1e7e34; /* Darker border on hover */
+    transform: translateY(-2px); /* Lift effect on hover */
+}
+
+/* Customizing the footer text */
+.footer {
+    font-size: 14px;
+    color: #6c757d; /* Gray color for footer text */
+}
+
+.footer a {
+    color: #007bff; /* Blue link color */
+    text-decoration: none; /* Remove underline */
+}
+
+.footer a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .login-form {
+        padding: 20px; /* Reduce padding on smaller screens */
+    }
+}
+body {
+    background-color: #f8f9fa; /* Light background for better contrast */
+    font-family: 'Arial', sans-serif; /* Use a clean font */
+}
+
+.container {
+    max-width: 800px; /* Limit the width of the container */
+    margin: auto; /* Center the container */
+    padding: 20px; /* Add padding for spacing */
+    border-radius: 10px; /* Rounded corners for the container */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+.row {
+    height: 100vh; /* Full height for better alignment */
+}
+
+img {
+    border-radius: 10px; /* Rounded corners for the image */
+}
+
+.login-form {
+    background-color: #fff; /* White background for the form */
+    padding: 40px; /* Spacing around the form */
+    border-radius: 10px; /* Rounded corners for the form */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+h1 {
+    font-weight: 600; /* Slightly bolder font for the heading */
+    color: #333; /* Dark text color */
+}
+
+.btn {
+    border-radius: 5px; /* Rounded button corners */
+}
+
+.btn-success {
+    background-color: #28a745; /* Green color for the button */
+    border: none; /* Remove border */
+}
+
+.btn-success:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+.footer {
+    font-size: 0.9em; /* Slightly smaller font size */
+}
+
+.footer a {
+    color: #007bff; /* Bootstrap primary color for links */
+}
+
+.footer a:hover {
+    text-decoration: underline; /* Underline on hover for links */
+}
+/* Overall body styling */
+body {
+    background: linear-gradient(135deg, #e2e2e2 0%, #ffffff 100%); /* Light gradient background */
+    font-family: 'Arial', sans-serif; /* Clean font */
+}
+
+/* Container for the entire login page */
+.container {
+    max-width: 800px; /* Maximum width */
+    margin: auto; /* Centering the container */
+    padding: 20px; /* Padding inside the container */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15); /* Soft shadow for depth */
+}
+
+/* Row configuration for the image and form */
+.row {
+    height: 100vh; /* Full height */
+}
+
+/* Image styling */
+img {
+    border-radius: 10px; /* Rounded corners for the image */
+    filter: brightness(0.9); /* Slightly darker image */
+}
+
+/* Login form styling */
+.login-form {
+    background-color: #ffffff; /* White background for the form */
+    padding: 40px; /* Inner spacing */
+    border-radius: 10px; /* Rounded corners for the form */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    transition: transform 0.3s; /* Smooth scaling on hover */
+}
+
+/* Scale up form on hover for interaction */
+.login-form:hover {
+    transform: scale(1.02); /* Slightly enlarge on hover */
+}
+
+/* Heading styles */
+h1 {
+    font-weight: 700; /* Bold heading */
+    color: #333; /* Dark text */
+    margin-bottom: 20px; /* Bottom margin for spacing */
+}
+
+/* Button styling */
+.btn {
+    border-radius: 25px; /* Rounded button corners */
+    padding: 10px 20px; /* Inner spacing */
+}
+
+/* Success button color and hover effects */
+.btn-success {
+    background-color: #28a745; /* Bootstrap green */
+    border: none; /* No border */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+/* Change button color on hover */
+.btn-success:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+/* Footer link styling */
+.footer {
+    font-size: 0.9em; /* Smaller font size */
+    color: #6c757d; /* Gray color */
+}
+
+/* Link color in footer */
+.footer a {
+    color: #007bff; /* Bootstrap primary color */
+    text-decoration: none; /* No underline */
+}
+
+/* Underline link on hover */
+.footer a:hover {
+    text-decoration: underline; /* Underline on hover */
+    color: #0056b3; /* Darker blue on hover */
+}
+
+/* Error alert styling */
+.alert {
+    margin-bottom: 20px; /* Bottom margin for spacing */
+}
+/* Overall body styling */
+body {
+    background: linear-gradient(135deg, #e2e2e2 0%, #ffffff 100%); /* Light gradient background */
+    font-family: 'Arial', sans-serif; /* Clean font */
+}
+
+/* Container for the entire login page */
+.container {
+    max-width: 1000px; /* Maximum width */
+    margin: auto; /* Centering the container */
+    padding: 20px; /* Padding inside the container */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15); /* Soft shadow for depth */
+    height: 100vh; /* Full height */
+    display: flex; /* Flexbox layout */
+    align-items: center; /* Center vertically */
+}
+
+/* Row configuration for the image and form */
+.row {
+    flex: 1; /* Allow row to grow */
+}
+
+/* Image styling */
+img {
+    border-radius: 10px; /* Rounded corners for the image */
+    filter: brightness(0.9); /* Slightly darker image */
+    max-width: 100%; /* Full width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Login form styling */
+.login-form {
+    background-color: #ffffff; /* White background for the form */
+    padding: 40px; /* Inner spacing */
+    border-radius: 10px; /* Rounded corners for the form */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    transition: transform 0.3s; /* Smooth scaling on hover */
+    width: 100%; /* Full width for smaller screens */
+    max-width: 500px; /* Limit maximum width */
+    margin: 0 auto; /* Center the form */
+}
+
+/* Scale up form on hover for interaction */
+.login-form:hover {
+    transform: scale(1.02); /* Slightly enlarge on hover */
+}
+
+/* Heading styles */
+h1 {
+    font-weight: 700; /* Bold heading */
+    color: #333; /* Dark text */
+    margin-bottom: 20px; /* Bottom margin for spacing */
+}
+
+/* Button styling */
+.btn {
+    border-radius: 25px; /* Rounded button corners */
+    padding: 10px 20px; /* Inner spacing */
+}
+
+/* Success button color and hover effects */
+.btn-success {
+    background-color: #28a745; /* Bootstrap green */
+    border: none; /* No border */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+/* Change button color on hover */
+.btn-success:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+/* Footer link styling */
+.footer {
+    font-size: 0.9em; /* Smaller font size */
+    color: #6c757d; /* Gray color */
+}
+
+/* Link color in footer */
+.footer a {
+    color: #007bff; /* Bootstrap primary color */
+    text-decoration: none; /* No underline */
+}
+
+/* Underline link on hover */
+.footer a:hover {
+    text-decoration: underline; /* Underline on hover */
+    color: #0056b3; /* Darker blue on hover */
+}
+
+/* Error alert styling */
+.alert {
+    margin-bottom: 20px; /* Bottom margin for spacing */
+}
+/* Overall body styling */
+body {
+    background: linear-gradient(135deg, #f0f0f0 0%, #ffffff 100%); /* Light gradient background */
+    font-family: 'Arial', sans-serif; /* Clean font */
+}
+
+/* Container for the entire login page */
+.container {
+    max-width: 1200px; /* Maximum width */
+    margin: auto; /* Centering the container */
+    padding: 20px; /* Padding inside the container */
+    height: 100vh; /* Full height */
+    display: flex; /* Flexbox layout */
+    align-items: center; /* Center vertically */
+}
+
+/* Row configuration for the image and form */
+.row {
+    flex: 1; /* Allow row to grow */
+}
+
+/* Image styling */
+img {
+    border-radius: 10px; /* Rounded corners for the image */
+    max-width: 100%; /* Full width */
+    height: 100vh; /* Full height */
+    object-fit: cover; /* Cover the space while maintaining aspect ratio */
+}
+
+/* Login form styling */
+.login-form {
+    background-color: rgba(255, 255, 255, 0.9); /* White background with slight transparency */
+    padding: 40px; /* Inner spacing */
+    border-radius: 10px; /* Rounded corners for the form */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    transition: transform 0.3s; /* Smooth scaling on hover */
+    max-width: 400px; /* Limit maximum width */
+    width: 100%; /* Full width for smaller screens */
+    margin: 0 auto; /* Center the form */
+}
+
+/* Scale up form on hover for interaction */
+.login-form:hover {
+    transform: scale(1.02); /* Slightly enlarge on hover */
+}
+
+/* Heading styles */
+h1 {
+    font-weight: 700; /* Bold heading */
+    color: #333; /* Dark text */
+    margin-bottom: 20px; /* Bottom margin for spacing */
+}
+
+/* Button styling */
+.btn {
+    border-radius: 25px; /* Rounded button corners */
+    padding: 10px 20px; /* Inner spacing */
+}
+
+/* Success button color and hover effects */
+.btn-success {
+    background-color: #28a745; /* Bootstrap green */
+    border: none; /* No border */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+/* Change button color on hover */
+.btn-success:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+/* Footer link styling */
+.footer {
+    font-size: 0.9em; /* Smaller font size */
+    color: #6c757d; /* Gray color */
+}
+
+/* Link color in footer */
+.footer a {
+    color: #007bff; /* Bootstrap primary color */
+    text-decoration: none; /* No underline */
+}
+
+/* Underline link on hover */
+.footer a:hover {
+    text-decoration: underline; /* Underline on hover */
+    color: #0056b3; /* Darker blue on hover */
+}
+
+/* Error alert styling */
+.alert {
+    margin-bottom: 20px; /* Bottom margin for spacing */
+}
+/* Overall body styling */
+body {
+    background: linear-gradient(135deg, #e9ecef 0%, #ffffff 100%); /* Soft gradient background */
+    font-family: 'Arial', sans-serif; /* Clean font */
+    height: 100vh; /* Full viewport height */
+}
+
+/* Container for the entire login page */
+.container {
+    max-width: 1200px; /* Maximum width */
+    margin: auto; /* Centering the container */
+    padding: 20px; /* Padding inside the container */
+    display: flex; /* Flexbox layout */
+    align-items: center; /* Center vertically */
+    height: 100%; /* Full height */
+}
+
+/* Row configuration for the image and form */
+.row {
+    flex: 1; /* Allow row to grow */
+}
+
+/* Image styling */
+img {
+    border-radius: 10px; /* Rounded corners for the image */
+    max-width: 100%; /* Full width */
+    height: 100vh; /* Full height */
+    object-fit: cover; /* Cover the space while maintaining aspect ratio */
+}
+
+/* Login form styling */
+.login-form {
+    background-color: rgba(255, 255, 255, 0.95); /* White background with slight transparency */
+    padding: 40px; /* Inner spacing */
+    border-radius: 15px; /* Rounded corners for the form */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition on hover */
+    max-width: 400px; /* Limit maximum width */
+    width: 100%; /* Full width for smaller screens */
+    margin: 0 auto; /* Center the form */
+}
+
+/* Scale up form on hover for interaction */
+.login-form:hover {
+    transform: translateY(-5px); /* Slightly lift on hover */
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+}
+
+/* Heading styles */
+h1 {
+    font-weight: 700; /* Bold heading */
+    color: #333; /* Dark text */
+    margin-bottom: 20px; /* Bottom margin for spacing */
+    text-align: center; /* Center the heading */
+}
+
+/* Button styling */
+.btn {
+    border-radius: 25px; /* Rounded button corners */
+    padding: 12px 20px; /* Inner spacing */
+    font-size: 1.1em; /* Larger font size */
+}
+
+/* Success button color and hover effects */
+.btn-success {
+    background-color: #28a745; /* Bootstrap green */
+    border: none; /* No border */
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transition */
+}
+
+/* Change button color on hover */
+.btn-success:hover {
+    background-color: #218838; /* Darker green on hover */
+    transform: translateY(-2px); /* Lift button on hover */
+}
+
+/* Footer link styling */
+.footer {
+    font-size: 0.9em; /* Smaller font size */
+    color: #6c757d; /* Gray color */
+    text-align: center; /* Center align footer */
+}
+
+/* Link color in footer */
+.footer a {
+    color: #007bff; /* Bootstrap primary color */
+    text-decoration: none; /* No underline */
+}
+
+/* Underline link on hover */
+.footer a:hover {
+    text-decoration: underline; /* Underline on hover */
+    color: #0056b3; /* Darker blue on hover */
+}
+
+/* Error alert styling */
+.alert {
+    margin-bottom: 20px; /* Bottom margin for spacing */
+    border-radius: 5px; /* Rounded corners */
+}

@@ -1,0 +1,37 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsive design -->
+    <title>Logoipsum</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="{% static 'css/add_book.css' %}">
+</head>
+<body>
+
+    <div class="container">
+        <h1 class="mt-5">Add Book</h1>
+
+        {% if messages %}
+            <div class="alert alert-info" role="alert">
+                {% for message in messages %}
+                    {{ message }}
+                {% endfor %}
+            </div>
+        {% endif %}
+
+        <form method="post" action="{% url 'add_book' %}">
+            {% csrf_token %}
+            <div class="form-group">
+                {{ form.as_p }} <!-- Render the form fields -->
+            </div>
+            <button type="submit" class="btn btn-success btn-block">Save</button> <!-- Full-width button -->
+            <a href="{% url 'book_list' %}" class="btn btn-secondary btn-block">Cancel</a> <!-- Full-width button -->
+        </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

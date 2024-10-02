@@ -1,0 +1,32 @@
+        body {
+            background-color: #f8f9fa; /* Light background for better contrast */
+        }
+        .container {
+            background-color: #ffffff; /* White background for form container */
+            border-radius: 8px; /* Rounded corners */
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Enhanced shadow effect for depth */
+            padding: 30px; /* Increased padding around the content */
+            max-width: 600px; /* Limit the width of the container */
+            margin: auto; /* Center the container */
+        }
+        h2 {
+            color: #007bff; /* Bootstrap primary color for the heading */
+            margin-bottom: 30px; /* Spacing below the heading */
+            font-size: 28px; /* Larger font size for better readability */
+            text-align: center; /* Center align the heading */
+        }
+        .btn-primary {
+            background-color: #007bff; /* Primary button color */
+            border: none; /* No border */
+            width: 100%; /* Full-width button */
+        }
+        .btn-secondary {
+            background-color: #6c757d; /* Secondary button color */
+            border: none; /* No border */
+            margin-top: 10px; /* Space above the cancel button */
+            width: 100%; /* Full-width button */
+        }
+        .alert {
+            margin-bottom: 20px; /* Space below alert */
+            border-radius: 5px; /* Rounded corners for alerts */
+        }

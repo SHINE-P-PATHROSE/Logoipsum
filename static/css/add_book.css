@@ -1,0 +1,37 @@
+  body {
+            background-color: #f2f3f5; /* Light background for the body */
+            font-family: 'Arial', sans-serif; /* Consistent font for the application */
+        }
+        .container {
+            margin-top: 50px; /* Space above the container */
+            background-color: #ffffff; /* White background for the form container */
+            border-radius: 10px; /* Rounded corners */
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+            padding: 30px; /* Padding for the container */
+            max-width: 600px; /* Max width for the form container */
+            margin-left: auto; /* Center horizontally */
+            margin-right: auto; /* Center horizontally */
+        }
+        h1 {
+            color: #007bff; /* Blue color for the header */
+            text-align: center; /* Center align the header */
+            margin-bottom: 30px; /* Space below the header */
+        }
+        .btn-success {
+            background-color: #28a745; /* Green button color */
+            border: none; /* Remove border */
+        }
+        .btn-success:hover {
+            background-color: #218838; /* Darker green on hover */
+        }
+        .btn-secondary {
+            background-color: #6c757d; /* Grey color for cancel button */
+            border: none; /* Remove border */
+        }
+        .btn-secondary:hover {
+            background-color: #5a6268; /* Darker grey on hover */
+        }
+        .alert {
+            border-radius: 5px; /* Rounded corners for alerts */
+            margin-bottom: 20px; /* Space below alert */
+        }

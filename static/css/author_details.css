@@ -1,0 +1,33 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa; /* Light background for the whole page */
+}
+
+.custom-card {
+    border: 1px solid #dee2e6; /* Card border color */
+    border-radius: 0.5rem; /* Slightly rounded corners */
+}
+
+.custom-table {
+    border: 1px solid #dee2e6; /* Table border */
+    border-radius: 0.5rem; /* Slightly rounded corners for the table */
+}
+
+.custom-table th {
+    background-color: #007bff; /* Bootstrap primary color for header */
+    color: white; /* White text for header */
+}
+
+.custom-table tbody tr:hover {
+    background-color: #e9ecef; /* Light grey background on row hover */
+}
+
+.btn-warning {
+    background-color: #ffc107; /* Bootstrap warning color */
+    border-color: #ffc107; /* Match the border with the background */
+}
+
+.btn-warning:hover {
+    background-color: #e0a800; /* Darken background on hover */
+    border-color: #d39e00; /* Darken border on hover */
+}
